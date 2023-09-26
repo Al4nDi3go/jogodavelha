@@ -1,0 +1,161 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container principal */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+/* Estilos para a imagem à esquerda */
+.left-side img {
+    width: 820px; /* Ajuste a largura conforme necessário */
+    height: auto;
+}
+
+/* Estilos para o conteúdo à direita */
+.right-side {
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Estilos para o título do jogo */
+.right-side h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #fcb827;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o botão */
+#start-button {
+    background-color: #ee3e41;
+    color: #fff;
+    border-radius: 30px;
+    border: black;
+    padding: 30px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover {
+    background-color: rgb(255, 197, 197);
+}
+
+/* Estilos para a tela de jogo (opcional) */
+.game-screen {
+    display: none;
+}
+
+/* Estilos para a tela inicial */
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.character-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.character-button {
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.character-button img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.character-button:hover {
+    background-color: #ff6868;
+    
+   
+}
+
+
+/* Estilos para a tela de jogo */
+.game-screen {
+    display: none;
+}
+
+/* Estilos para a grade do jogo */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para as células */
+.cell {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para a mensagem de vitória */
+.winner-message {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Estilos para o botão de reiniciar */
+.restart-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+    background-color: #555;
+}
+
